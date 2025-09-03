@@ -78,3 +78,15 @@ https://abcd-1234-56-78.ngrok-free.app
 
 Use this URL in your Android app or frontend instead of http://127.0.0.1:8000.
 
+
+## 📂 Project Structure
+
+```text
+QuantumShield/
+├── app.py                 # Main FastAPI app entry point
+├── requirements.txt       # Project dependencies
+├── uploads/               # Temporary storage for uploaded files
+├── ai/                    # AI detection modules
+│   ├── __init__.py
+│   └── detection.py
+└── venv/                  # Virtual environment 
